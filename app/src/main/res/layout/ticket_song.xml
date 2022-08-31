@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10pt"
+        android:layout_weight="15"
+        android:background="@drawable/background_ticket"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Song"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSinger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Singer"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5pt"
+            android:layout_weight="1"
+            android:background="@drawable/button_backgroung"
+            android:text="PLAY" />
+    </LinearLayout>
+
+</LinearLayout>
